@@ -1,59 +1,102 @@
-<!DOCTYPE html>
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Profile Page</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <div class="card text-center">
-      <img src="images/profile_pic.jpg" alt="profile picture" class="img-circle" id="profile_pic" width="200px">
-      <h1>Pedro Nogueira</h1>
-      <h3>Developer</h3>
-
-      <p>The Original Imposter, Geek, Travel Junkie, Pantless Jogger. I have a unique, growing collection of bones. Trying to elevate small talk to medium talk.</p>
-    </div>
-    <div class="card text-center">
-      <ul class="inline-list">
-        <li><a href="https://github.com/Code-hound" target="_blank"><i class="fab fa-github-square"></i>GitHub</a></li>
-        <li><a href="https://linkedin.com/pub/pedro-nogueira/b4/285/a7" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a></li>
-        <li><a href="https://landing.jobs/profile" target="_blank"><i class="fas fa-address-card"></i>Landing.jobs</a></li>
+  <!DOCTYPE html>
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>Profile Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#profile">
+            <i class="fa fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#movies">
+            <i class="fas fa-film"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#footer">
+            <i class="fa fa-life-ring"></i>
+          </a>
+        </li>
       </ul>
     </div>
-    <div class="card text-center">
-    <h2>Movies</h2>
-      <table>
-        <thead>
-          <tr>
-            <th></th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <img src="images/cap_falcao.jpg" alt="profile picture">
-            </td>
-            <td>A satire on anti-communist paranoia in the days of fascist dictatorship in Portugal. The series follows the adventures of the "Lusitanian superhero," the ultra-patriotic Captain Falcao, a man who follows the direct orders of Antonio de Oliveira Salazar in the fight against the "red menace". Starring Goncalo Waddington, as Captain Falcao, David Chan Cordeiro (also responsible for coordinating the work of doubles) as his sidekick Puto Perdiz and Jose Pinto in the role of portuguese dictator,Antonio de Oliveira Salazar. Visually, "Captain Falcao" presents itself in the register of the classic "Green Hornet" with "poor quality" image to complete the nostalgic wink.</td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/fight_club.jpg" alt="profile picture">
-            </td>
-            <td>A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power. When the narrator is exposed to the hidden agenda of Tyler's fight club, he must accept the awful truth that Tyler may not be who he says he is.</td>
-          </tr>
-          <tr>
-            <td>
-              <img src="images/seven_samurai.jpg" alt="profile picture">
-            </td>
-            <td>In 16th century Japan, farmers in a small village face the prospect of again losing their crops to a band of roving thieves. Their solution is to go to the nearest city and see if they can hire samurai to protect them. The farmers are poor and can only offer food and lodging but they soon recruit Kambei Shimada who determines that they will need a total of seven samurai to properly guard the village. Slowly, he recruits other samurai for their task and once complete, move to the village. There they teach the farmers basic self defense and fortify the village itself. When the bandits attack, they are prepared but suffer many losses.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</body>
-</html>
+    <div id="content">
+        <div class="container-fluid">
+          <div class="card text-center" id="profile">
+            <img src="images/profile_pic.jpg" alt="profile picture" class="img-circle" id="profile_pic" width="200px">
+            <h1>Pedro Nogueira</h1>
+            <h3>Developer</h3>
+
+            <p>The Original Imposter, Geek, Travel Junkie, Pantless Jogger. I have a unique, growing collection of bones. Trying to elevate small talk to medium talk.</p>
+          </div>
+          <div class="card text-center" id="social-networks">
+            <ul class="inline-list">
+              <li><a href="https://github.com/Code-hound" target="_blank"><i class="fab fa-github-square"></i>GitHub</a></li>
+              <li><a href="https://linkedin.com/pub/pedro-nogueira/b4/285/a7" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+              <li><a href="https://landing.jobs/profile" target="_blank"><i class="fas fa-address-card"></i>Landing.jobs</a></li>
+            </ul>
+          </div>
+          <div class="card text-center" id="movies">
+          <h2>Movies</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="images/cap_falcao.jpg" alt="profile picture">
+                  </td>
+                  <td>A satire on anti-communist paranoia in the days of fascist dictatorship in Portugal. The series follows the adventures of the "Lusitanian superhero," the ultra-patriotic Captain Falcao, a man who follows the direct orders of Antonio de Oliveira Salazar in the fight against the "red menace". Starring Goncalo Waddington, as Captain Falcao, David Chan Cordeiro (also responsible for coordinating the work of doubles) as his sidekick Puto Perdiz and Jose Pinto in the role of portuguese dictator,Antonio de Oliveira Salazar. Visually, "Captain Falcao" presents itself in the register of the classic "Green Hornet" with "poor quality" image to complete the nostalgic wink.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="images/fight_club.jpg" alt="profile picture">
+                  </td>
+                  <td>A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power. When the narrator is exposed to the hidden agenda of Tyler's fight club, he must accept the awful truth that Tyler may not be who he says he is.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="images/seven_samurai.jpg" alt="profile picture">
+                  </td>
+                  <td>In 16th century Japan, farmers in a small village face the prospect of again losing their crops to a band of roving thieves. Their solution is to go to the nearest city and see if they can hire samurai to protect them. The farmers are poor and can only offer food and lodging but they soon recruit Kambei Shimada who determines that they will need a total of seven samurai to properly guard the village. Slowly, he recruits other samurai for their task and once complete, move to the village. There they teach the farmers basic self defense and fortify the village itself. When the bandits attack, they are prepared but suffer many losses.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="card text-center" id="footer">
+            <h2>About this page</h2>
+            <p>
+                This page has been coded during the <a href="http://lewagon.com/program" target="_blank">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.
+                <ul class="inline-list">
+                  <li>
+                    <a href="#">
+                     <i class="fa fa-heart"></i>
+                   </a>
+                 </li>
+                  <li>
+                    <a href="#">
+                     <i class="fa fa-share"></i>
+                   </a>
+                  </li>
+                  <li><a href="#">
+                     <i class="fa fa-star"></i>
+                   </a>
+                  </li>
+                </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+  </body>
+  </html>
