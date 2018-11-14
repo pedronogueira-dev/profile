@@ -37,7 +37,7 @@ a:hover {
 
 table {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.6em;
   border-collapse: collapse;
 }
@@ -47,13 +47,17 @@ table > tbody > tr {
   border-bottom: 1px solid grey;
 }
 
+td {
+  padding: 20px auto;
+}
+
 .container {
-    width: 500px;
+    width: 700px;
     margin: 30px auto;
   }
 
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
+   For a screen < 960px, this CSS will be read
   .container {
     width: 700px;
   }
